@@ -1,0 +1,30 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.log
+
+# Playwright Testing
+.playwright-mcp/
+
+# Node Modules (if added later)
+node_modules/
+package-lock.json
+
+# Build Files
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
