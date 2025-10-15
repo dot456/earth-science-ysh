@@ -1,0 +1,38 @@
+/* CSS Variables */
+:root {
+  /* Color Palette */
+  --color-primary: #262624;      /* 다크 베이스 */
+  --color-secondary: #595856;    /* 미디엄 그레이 */
+  --color-tertiary: #8C8A87;     /* 라이트 그레이 */
+  --color-accent: #BFBDBA;       /* 베이지 그레이 */
+  --color-background: #0D0D0D;   /* 딥 블랙 */
+  --color-text-light: #BFBDBA;   /* 밝은 텍스트 */
+  --color-text-dark: #262624;    /* 어두운 텍스트 */
+
+  /* Typography */
+  --font-main: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  
+  /* Font Sizes - Desktop */
+  --font-size-h1: 48px;
+  --font-size-h2: 36px;
+  --font-size-h3: 24px;
+  --font-size-body: 16px;
+  
+  /* Spacing */
+  --section-padding: 80px;
+  --max-width: 1200px;
+  
+  /* Transitions */
+  --transition-default: 0.3s ease;
+}
+
+/* Mobile Font Sizes */
+@media (max-width: 768px) {
+  :root {
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 20px;
+    --font-size-body: 14px;
+    --section-padding: 40px;
+  }
+}
